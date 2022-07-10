@@ -1,11 +1,7 @@
-import React from 'react'
+import axios from 'axios';
+import React, { useState } from 'react';
+import { Layout } from '../layout';
 
-const NewWorkouts = () => {
-  return (
-    <div>
-        <h1>New Recipes</h1>
-    </div>
-  )
-}
 
-export default NewWorkouts
+
+export default NewPost;
