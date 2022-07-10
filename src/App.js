@@ -1,21 +1,14 @@
-import React from "react"
-import Home from "./components/static/Home";
-import Navbar from "./components/navigation/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ListWorkouts from "./components/workouts/ListWorkouts";
-import NewWorkout from "./components/workouts/NewWorkout";
+import logo from './logo.svg';
+import React from 'react';
+import Navigation from './components/navigation/NavigationBar';
+import './App.css';
+import { Layout } from './components/layout';
 
-const App = () => {
+function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/workouts" element={<ListWorkouts />} />
-        <Route path="/workouts/new" element={<NewWorkout />} />
-        <Route exact path="/" element={<Home />} />
-      </Routes>  
-    </Router>
-    
+    <Layout>
+      "Hello world!"
+    </Layout>
   );
 }
 
