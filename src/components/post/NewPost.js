@@ -25,24 +25,24 @@ const NewPost = () => {
             <main style={{ padding: "1rem 0" }}>
                 <h2>New post</h2>
                 <div>
-                    <span>Type of workout</span>
+                    <span>Type of workout </span>
                         <input
-                            placeholder="Type of workout"
+                            placeholder="type of workout"
                             value={title}
                             onChange={(event) => setTitle(event.target.value)}
                         />
                     </div>
                     <div>
-                        <span>Description</span>
+                        <span>Description </span>
                             <input 
-                            placeholder="description" 
+                            placeholder="description " 
                             multiline 
                             value={body}
                             onChange={(event) => setBody(event.target.value)}
                         />
                     </div>
                     <div>
-                        <span>Repetitions</span>
+                        <span>Repetitions </span>
                             <input
                                 placeholder="number of repetions"
                                 value={author}
