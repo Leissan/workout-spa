@@ -16,10 +16,10 @@ const Posts = () => {
     return (
         <Layout>
             <main style={{ padding: "1rem 0" }}>
-                <h2>Posts</h2>
+                <h2>Workout list</h2>
                 { posts.length > 0 && posts.map((post) => (
                     <div key={post.id}>
-                        <Post id={post.id} title={post.title} body={post.body} createdAt={post.createdAt} author={post.author}/>
+                        <Post id={post.id} workout={post.workout} description={post.description}  repetitions={post.repetitions}/>
                     </div>
                     ))}
             </main>

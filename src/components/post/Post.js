@@ -1,14 +1,13 @@
 import React from "react"
 
 export const Post = (props) => {
-    const { id = null, title = "", body = "", author = "", createdAt = null } = props
+    const { id = null, workout = "", description = "", repetitions = ""} = props
 
     return (
         <div style={{margin: 20}}>
-            <a href={`/posts/${id}`}><h3> {title} </h3></a>
-            <p> {body} </p>
-            <p> {author} </p>
-            <span> {createdAt} </span>
+            <a href={`/posts/${id}`}><h3> {workout} </h3></a>
+            <p> {description} </p>
+            <p>  {repetitions} </p>
             <br/>
         </div>
     )

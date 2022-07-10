@@ -4,34 +4,24 @@
       "id": 1,
       "workout": "Test",
       "description": "Test test test",
-      "repetitions": "Leissan",
+      "repetitions": "Leissan"
       
     },
     {
       "id": 2,
       "workout": "Test 2",
       "description": "Test test test",
-      "repetitions": "Leissan",
+      "repetitions": "Leissan"
      
     },
     {
       "id": 3,
       "workout": "Test 3",
       "description": "Test test test",
-      "repetitions": "Leissan",
+      "repetitions": "Leissan"
       
     },
-    {
-      "workout": 1,
-      "id": 4
-    },
-    {
-      "workout": 1,
-      "description": 2,
-      "repetitions": 3,
-      
-      "id": 5
-    },
+    
     {
       "workout": "Test 5",
       "description": "Test test test",
@@ -52,7 +42,7 @@
       "repetitions": "Leissan",
     
       "id": 8
-    },
+    }
     
   ]
 }
