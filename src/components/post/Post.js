@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react"
 
-const ListWorkouts = () => {
-  return (
-    <div>
-        <h1>List Workouts</h1>
-    </div>
-  )
+export const Post = (props) => {
+    const { id = null, title = "", body = "", author = "", createdAt = null } = props
+
+    return (
+        <div style={{margin: 20}}>
+            <a href={`/posts/${id}`}><h3> {title} </h3></a>
+            <p> {body} </p>
+            <span> {author} </span>
+            <span> {createdAt} </span>
+            <br/>
+        </div>
+    )
 }
-
-export default ListWorkouts
