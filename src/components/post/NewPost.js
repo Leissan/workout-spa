@@ -8,7 +8,7 @@ const NewPost = () => {
   const [author, setAuthor] = useState(null)
 
   const onCreate = () => {
-      axios.post("http://localhost:4000/posts", {
+      axios.post("http://localhost:3000/posts", {
           "title": title, 
           "body": body,
           "author": author,
@@ -25,27 +25,27 @@ const NewPost = () => {
             <main style={{ padding: "1rem 0" }}>
                 <h2>New post</h2>
                 <div>
-                    <span>Заголовок</span>
+                    <span>Type of workout</span>
                         <input
-                            placeholder="Загаловок"
-                            value={title || ''}
+                            placeholder="Type of workout"
+                            value={title}
                             onChange={(event) => setTitle(event.target.value)}
                         />
                     </div>
                     <div>
-                        <span>Текст</span>
+                        <span>Description</span>
                             <input 
-                            placeholder="Текст" 
+                            placeholder="description" 
                             multiline 
-                            value={body || ''}
+                            value={body}
                             onChange={(event) => setBody(event.target.value)}
                         />
                     </div>
                     <div>
-                        <span>Автор</span>
+                        <span>Repetitions</span>
                             <input
-                                placeholder="Автор"
-                                value={author || ''}
+                                placeholder="number of repetions"
+                                value={author}
                                 onChange={(event) => setAuthor(event.target.value)}
                             />
                     </div>
