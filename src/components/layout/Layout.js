@@ -1,11 +1,27 @@
-import React from 'react'
+import React  from 'react';
+import { createUseStyles } from 'react-jss';
+import Navigation from '../navigation/NavigationBar';
 
-const Home = () => {
+export const Layout = (props) => {
+  const classes = useStyles();
+
+  const { width = null, children } = props
+
   return (
-    <div>
-        <h1>Welcome To Workouts!</h1>
+    <div style={{ width: width ? `${width}px` : '100%', margin: '0 auto'}}>
+        <Navigation/>
+        <div className={classes.wrapper}>
+            {children}
+        </div>
     </div>
   )
 }
 
-export default Home
+const useStyles = createUseStyles({
+  wrapper: {
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+    margin: 32,
+  }
+});
