@@ -21,6 +21,39 @@ const NewPost = () => {
   }
 
   return (
+    <Layout>
+            <main style={{ padding: "1rem 0" }}>
+                <h2>New post</h2>
+                <div>
+                    <span>Заголовок</span>
+                        <input
+                            placeholder="Загаловок"
+                            value={title || ''}
+                            onChange={(event) => setTitle(event.target.value)}
+                        />
+                    </div>
+                    <div>
+                        <span>Текст</span>
+                            <input 
+                            placeholder="Текст" 
+                            multiline 
+                            value={body || ''}
+                            onChange={(event) => setBody(event.target.value)}
+                        />
+                    </div>
+                    <div>
+                        <span>Автор</span>
+                            <input
+                                placeholder="Автор"
+                                value={author || ''}
+                                onChange={(event) => setAuthor(event.target.value)}
+                            />
+                    </div>
+                    <div>
+                        <button onClick={onCreate}>Сохранить</button>
+                    </div>
+            </main>
+        </Layout>
   )
 }
 
