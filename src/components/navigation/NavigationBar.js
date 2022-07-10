@@ -22,8 +22,8 @@ const NavigationBar = () => {
                     paddingBottom: "1rem",
                 }}
             >
-                <Link to="/list_of_posts">Posts list</Link> |{" "}
-                <Link to="/new_post">New post</Link>
+                <Link to="/list_of_posts">List of Workouts</Link> |{" "}
+                <Link to="/new_post">New Workout</Link>
             </nav>
         </div>
     )
