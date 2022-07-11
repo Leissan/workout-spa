@@ -1,14 +1,15 @@
 import React from "react"
 
-export const Post = (props) => {
-    const { id = null, workout = "", description = "", repetitions = ""} = props
-
+export const Post = ({id, workout, description, repetitions}) => {
+    
     return (
-        <div style={{margin: 20}}>
-            <a href={`/posts/${id}`}><h3> {workout} </h3></a>
+        <div style={{margin: 20, color: "white"}}>
+            <h3> {workout} </h3>
             <p> {description} </p>
             <p>  {repetitions} </p>
             <br/>
         </div>
     )
 }
+
+export default Post;

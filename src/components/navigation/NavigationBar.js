@@ -24,8 +24,8 @@ const NavigationBar = () => {
                 }}
             >
                 <Link to="/">Home</Link>  |{" "}
-                <Link to="/list_of_posts">List of Workouts</Link> |{" "}
-                <Link to="/new_post">New Workout</Link>
+                <Link to="/workout_plan">Workout Plan</Link> |{" "}
+                <Link to="/new_workout">New Workout</Link>
                 
             </nav>
         </div>

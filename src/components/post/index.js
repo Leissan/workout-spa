@@ -15,8 +15,8 @@ const Posts = () => {
 
     return (
         <Layout>
-            <main style={{ padding: "1rem 0" }}>
-                <h2>Workout list</h2>
+            <main style={{ padding: "1rem 0", color: "white" }}>
+                <h2>Workout Plan 💪 </h2>
                 { posts.length > 0 && posts.map((post) => (
                     <div key={post.id}>
                         <Post id={post.id} workout={post.workout} description={post.description}  repetitions={post.repetitions}/>

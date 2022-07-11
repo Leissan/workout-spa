@@ -8,9 +8,9 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Posts from './components/post/index';
+import Posts from './components/post';  //??? 
 import NewPost from './components/post/NewPost';
-import { Post } from './components/post/Post';
+import Post from './components/post/Post';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,11 +18,12 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="list_of_posts" element={<Posts />} />
-        <Route path="new_post" element={<NewPost />} />
-        <Route path="posts/${id}" element={<Post />} />
+        <Route path="workout_plan" element={<Posts />} />  
+        <Route path="new_workout" element={<NewPost />} />
+        <Route path="workout/${id}" element={<Post />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
 
+// 21  - which component is Posts
