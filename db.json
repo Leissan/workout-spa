@@ -2,47 +2,51 @@
   "posts": [
     {
       "id": 1,
-      "workout": "Test",
-      "description": "Test test test",
-      "repetitions": "Leissan"
-      
+      "workout": "Warm-up",
+      "description": "Shoulder-erm circles",
+      "repetitions": "3 sets of 20"
     },
     {
       "id": 2,
-      "workout": "Test 2",
-      "description": "Test test test",
-      "repetitions": "Leissan"
-     
+      "workout": "Cardio",
+      "description": "Jumping jacks",
+      "repetitions": "3 sets of 20"
     },
     {
       "id": 3,
-      "workout": "Test 3",
-      "description": "Test test test",
-      "repetitions": "Leissan"
-      
+      "workout": "Upper body",
+      "description": "Push-ups",
+      "repetitions": "3 sets of 10"
     },
-    
     {
-      "workout": "Test 5",
-      "description": "Test test test",
-      "repetitions": "Leissan",
-    
+      "workout": "Core",
+      "description": "Leg raises",
+      "repetitions": "3 sets of 10",
       "id": 6
     },
     {
-      "workout": "Test 5",
-      "description": "Test test test",
-      "repetitions": "Leissan",
-      
+      "workout": "Core ",
+      "description": "Glute bridge",
+      "repetitions": "3 sets of 10",
       "id": 7
     },
     {
-      "workout": "Valera",
-      "description": "Luchshiy",
+      "workout": "Glutes",
+      "description": "Squats",
       "repetitions": "Leissan",
-    
       "id": 8
+    },
+    {
+      "workout": "Legs",
+      "description": "Walking lunges",
+      "repetitions": "3 sets of 20",
+      "id": 9
+    },
+    {
+      "workout": "Upper body",
+      "description": "bicep curles",
+      "repetitions": "3 sets of 20",
+      "id": 10
     }
-    
   ]
 }

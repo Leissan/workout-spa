@@ -18,7 +18,7 @@ const NavigationBar = () => {
         <div className={classes.wrapper}> 
             <nav
                 style={{
-                    borderBottom: "solid 1px",
+                    borderBottom: "2px dotted white",
                     paddingBottom: "1rem",
                 }}
             >

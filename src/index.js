@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route exact path="/" element={<App />} />
         <Route path="list_of_posts" element={<Posts />} />
         <Route path="new_post" element={<NewPost />} />
         <Route path="posts/${id}" element={<Post />} />
