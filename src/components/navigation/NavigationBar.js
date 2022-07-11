@@ -8,6 +8,7 @@ const useStyles = createUseStyles({
         width: "100%",
         margin: 10,
         justifyContent: "center",
+        
     }
   });
 
@@ -22,8 +23,10 @@ const NavigationBar = () => {
                     paddingBottom: "1rem",
                 }}
             >
+                <Link to="/">Home</Link>  |{" "}
                 <Link to="/list_of_posts">List of Workouts</Link> |{" "}
                 <Link to="/new_post">New Workout</Link>
+                
             </nav>
         </div>
     )
