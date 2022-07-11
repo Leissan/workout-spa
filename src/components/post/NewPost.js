@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import { Layout } from '../layout';
+import Layout from '../layout/Layout';
 
 const NewPost = () => {
   const [workout, setWorkout] = useState(null)

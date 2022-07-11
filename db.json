@@ -3,7 +3,7 @@
     {
       "id": 1,
       "workout": "Warm-up",
-      "description": "Shoulder-erm circles",
+      "description": "Shoulder-arm circles",
       "repetitions": "3 sets of 20"
     },
     {
@@ -47,6 +47,12 @@
       "description": "bicep curles",
       "repetitions": "3 sets of 20",
       "id": 10
+    },
+    {
+      "workout": "warm up",
+      "description": "yoga",
+      "repetitions": "5 min",
+      "id": 11
     }
   ]
 }

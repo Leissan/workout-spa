@@ -25,3 +25,5 @@ const useStyles = createUseStyles({
     margin: 32,
   }
 });
+
+export default Layout;
