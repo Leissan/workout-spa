@@ -3,7 +3,7 @@ import React from "react"
 export const Post = ({id, workout, description, repetitions}) => {
     
     return (
-        <div style={{margin: 20, color: "white"}}>
+        <div style={{margin: 20}}>
             <h3> {workout} </h3>
             <p> {description} </p>
             <p>  {repetitions} </p>

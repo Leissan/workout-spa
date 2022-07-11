@@ -23,6 +23,7 @@ const useStyles = createUseStyles({
     flex: 1,
     flexDirection: 'column',
     margin: 32,
+    color: "white"
   }
 });
 

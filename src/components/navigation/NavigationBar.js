@@ -8,6 +8,8 @@ const useStyles = createUseStyles({
         width: "100%",
         margin: 10,
         justifyContent: "center",
+        fontSize: "18px",
+        fontWeight: "bold"
         
     }
   });
@@ -20,10 +22,11 @@ const NavigationBar = () => {
             <nav
                 style={{
                     borderBottom: "2px dotted white",
-                    paddingBottom: "1rem",
+                    paddingBottom: "1rem"
+                
                 }}
             >
-                <Link to="/">Home</Link>  |{" "}
+                <Link to="/" >Home</Link>  |{" "}
                 <Link to="/workout_plan">Workout Plan</Link> |{" "}
                 <Link to="/new_workout">New Workout</Link>
                 

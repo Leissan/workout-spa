@@ -36,7 +36,6 @@ const NewPost = () => {
                         <span>Description </span>
                             <input 
                             placeholder="description " 
-                            multiline 
                             value={description}
                             onChange={(event) => setDescription(event.target.value)}
                         />
