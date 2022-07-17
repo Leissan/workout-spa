@@ -11,7 +11,7 @@ This is an app for created for those who like to keep track of their core workou
 
 * When you open up an app, you will see a home page with the name of the app, inspirational quote and a cute image of a cat working out
 * This app will have clickable links on top of the page which will take you to either see a list of workouts or allow you to add a workout of your own using a state controlled form
-* Once you add your custom workout you will be bale to see it added to the list of workouts
+* Once you add your custom workout you will be able to see it added to the list of workouts
 
 
 ## Usage

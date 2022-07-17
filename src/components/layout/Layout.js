@@ -8,7 +8,7 @@ export const Layout = (props) => {
   const { width = null, children } = props
 
   return (
-    <div style={{ width: width ? `${width}px` : '100%', margin: '0 auto'}}>
+    <div style={{ width: width ? `${width}px` : '100%', margin: '0 auto' }}>
         <NavigationBar/>
         <div className={classes.wrapper}>
             {children}

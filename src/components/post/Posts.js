@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import Layout  from '../layout/Layout';
 
 import axios from 'axios';
-import { Post } from './Post';
+//import { Post } from './Post';
+import Post from "./Post"
 
 const Posts = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:3000/posts").then((response) => { 
+        axios.get("http://localhost:4000/posts").then((response) => { 
             setPosts(response.data)
         });
     }, []);

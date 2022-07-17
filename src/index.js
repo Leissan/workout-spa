@@ -8,7 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Posts from './components/post';  //??? 
+import Posts from './components/post/Posts';  
 import NewPost from './components/post/NewPost';
 import Post from './components/post/Post';
 
@@ -26,4 +26,3 @@ root.render(
   </React.StrictMode>
 );
 
-// 21  - which component is Posts

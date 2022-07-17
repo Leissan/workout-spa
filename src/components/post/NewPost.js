@@ -8,7 +8,7 @@ const NewPost = () => {
   const [repetitions, setRepetitions] = useState(null)
 
   const onCreate = () => {
-      axios.post("http://localhost:3000/posts", {
+      axios.post("http://localhost:4000/posts", {
           "workout": workout, 
           "description": description,
           "repetitions": repetitions
