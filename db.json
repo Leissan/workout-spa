@@ -33,7 +33,7 @@
     {
       "workout": "Glutes",
       "description": "Squats",
-      "repetitions": "Leissan",
+      "repetitions": "3 sets of 15",
       "id": 8
     },
     {
@@ -49,22 +49,16 @@
       "id": 10
     },
     {
-      "workout": "warm up",
+      "workout": "Warm up",
       "description": "yoga",
       "repetitions": "5 min",
       "id": 11
     },
     {
-      "workout": "r",
-      "description": "f",
-      "repetitions": "vv",
+      "workout": "Post workout",
+      "description": "yoga ",
+      "repetitions": "10 min",
       "id": 12
-    },
-    {
-      "workout": "yes",
-      "description": "na",
-      "repetitions": "3",
-      "id": 13
     }
   ]
 }

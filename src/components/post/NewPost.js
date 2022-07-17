@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import Layout from '../layout/Layout';
 
 const NewPost = () => {
-  const [workout, setWorkout] = useState(null)
-  const [description, setDescription] = useState(null)
-  const [repetitions, setRepetitions] = useState(null)
+  const [workout, setWorkout] = useState("")
+  const [description, setDescription] = useState("")
+  const [repetitions, setRepetitions] = useState("")
 
   const onCreate = () => {
       axios.post("http://localhost:3000/posts", {
@@ -14,9 +14,9 @@ const NewPost = () => {
           "repetitions": repetitions
 
         }).then(() => {
-          setWorkout(null)
-          setRepetitions(null)
-          setDescription(null)
+          setWorkout("")
+          setRepetitions("")
+          setDescription("")
       })
   }
 

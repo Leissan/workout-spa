@@ -26,9 +26,7 @@ const Posts = () => {
             <main style={{ padding: "1rem 0"}}>
                 <h2>Workout Plan 💪 </h2>
                 { posts.length > 0 && posts.map((post) => (
-                    
-                        <Post key={post.id} id={post.id} workout={post.workout} description={post.description}  repetitions={post.repetitions}/>
-                    
+                        <Post key={post.id} id={post.id} workout={post.workout} description={post.description}  repetitions={post.repetitions}/> 
                     ))}
             </main>
         </Layout>
