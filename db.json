@@ -59,6 +59,12 @@
       "description": "f",
       "repetitions": "vv",
       "id": 12
+    },
+    {
+      "workout": "yes",
+      "description": "na",
+      "repetitions": "3",
+      "id": 13
     }
   ]
 }
