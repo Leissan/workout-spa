@@ -47,18 +47,6 @@
       "description": "bicep curles",
       "repetitions": "3 sets of 20",
       "id": 10
-    },
-    {
-      "workout": "Warm up",
-      "description": "yoga",
-      "repetitions": "5 min",
-      "id": 11
-    },
-    {
-      "workout": "Post workout",
-      "description": "yoga ",
-      "repetitions": "10 min",
-      "id": 12
     }
   ]
 }
