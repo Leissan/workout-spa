@@ -47,7 +47,12 @@
       "description": "bicep curles",
       "repetitions": "3 sets of 20",
       "id": 10
+    },
+    {
+      "workout": "post workout",
+      "description": "stretches",
+      "repetitions": "10 min",
+      "id": 11
     }
-    
   ]
 }

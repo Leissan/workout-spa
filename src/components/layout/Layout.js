@@ -1,6 +1,8 @@
 import React  from 'react';
 import { createUseStyles } from 'react-jss';
+import Clickme from '../navigation/Clickme';
 import NavigationBar from '../navigation/NavigationBar';
+
 
 export const Layout = (props) => {
   const classes = useStyles();
@@ -8,8 +10,9 @@ export const Layout = (props) => {
   const { width = null, children } = props
 
   return (
-    <div style={{ width: width ? `${width}px` : '100%', margin: '0 auto' }}>
+    <div style={{ width: '100%', margin: '0 auto' }}>
         <NavigationBar/>
+        <Clickme />
         <div className={classes.wrapper}>
             {children}
         </div>
