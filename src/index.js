@@ -20,7 +20,7 @@ root.render(
         <Route exact path="/" element={<App />} />
         <Route path="/workout_plan" element={<Posts />} />  
         <Route path="/new_workout" element={<NewPost />} />
-        <Route path="/workout/${id}" element={<Post />} />
+       
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
