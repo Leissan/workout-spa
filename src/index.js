@@ -12,6 +12,7 @@ import Posts from './components/post/Posts';
 import NewPost from './components/post/NewPost';
 import Post from './components/post/Post';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
