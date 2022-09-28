@@ -7,13 +7,6 @@ const Posts = () => {
     const [posts, setPosts] = useState([]);
     
 
-    //useEffect(() => {
-
-        //axios.get("http://localhost:3000/posts").then((response) => { 
-            //setPosts(response.data)
-        //});
-    //}, []);
-
     useEffect(() => {
          fetch ('http://localhost:3000/posts')
          .then (res => res.json())
