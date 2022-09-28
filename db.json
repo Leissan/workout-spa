@@ -4,7 +4,7 @@
       "id": 1,
       "workout": "Warm-up",
       "description": "Shoulder-arm circles",
-      "repetitions": "3 sets of 20"
+      "repetitions": "3 sets of 22"
     },
     {
       "id": 2,
@@ -51,7 +51,7 @@
     {
       "workout": "post workout",
       "description": "stretches",
-      "repetitions": "10 min",
+      "repetitions": "20 min",
       "id": 11
     }
   ]

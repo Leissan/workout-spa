@@ -25,6 +25,16 @@ const Posts = () => {
         setPosts(updatedPosts);
     }
 
+    function handleUpdateMessage(updatedMessageObj) {
+        const updatedPosts = posts.map((post) => {
+          if (post.id === updatedMessageObj.id) {
+            return updatedMessageObj;
+          } else {
+            return post;
+          }
+        });
+        setPosts(updatedPosts);
+      }
 
     return (
         <Layout>
@@ -38,6 +48,7 @@ const Posts = () => {
                          description={post.description}  
                          repetitions={post.repetitions}
                          onPostDelete={handleDeletePost}
+                         onUpdateMessage={handleUpdateMessage}
                          
                          /> 
                     ))}
